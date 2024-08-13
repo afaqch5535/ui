@@ -14,36 +14,38 @@
     <h1 class="mt-5">Customer Details</h1>
     <form id="editCustomerForm">
       <input type="hidden" id="customerId" name="customerId">
-      <div class="row">
-        <div class="col-md-6">
-          <label for="firstName">First Name:</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" required>
-        </div>
-        <div class="col-md-6">
-          <label for="lastName">Last Name:</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" required>
-        </div>
-        <div class="col-md-6">
-          <label for="phone">Phone:</label>
-          <input type="tel" class="form-control" id="phone" name="phone" required>
-        </div>
-        <div class="col-md-6">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="col-md-6">
-          <label for="idNumber">ID Number:</label>
-          <input type="text" class="form-control" id="idNumber" name="idNumber" required>
-        </div>
-        <div class="col-md-6">
-          <label for="address">Address:</label>
-          <input placeholder="Address" type="text" class="form-control" id="address" name="address" required>
-        </div>
-        <div class="col-md-6">
-          <label for="status">Status:</label>
-          <input type="text" class="form-control" id="status" name="status" required>
-        </div>
-      </div>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <td><label for="firstName">First Name:</label></td>
+            <td><input type="text" class="form-control" id="firstName" name="firstName" required disabled></td>
+          </tr>
+          <tr>
+            <td><label for="lastName">Last Name:</label></td>
+            <td><input type="text" class="form-control" id="lastName" name="lastName" required disabled></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="tel" class="form-control" id="phone" name="phone" required disabled></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" class="form-control" id="email" name="email" required disabled></td>
+          </tr>
+          <tr>
+            <td><label for="idNumber">ID Number:</label></td>
+            <td><input type="text" class="form-control" id="idNumber" name="idNumber" required disabled></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address:</label></td>
+            <td><input placeholder="Address" type="text" class="form-control" id="address" name="address" required disabled></td>
+          </tr>
+          <tr>
+            <td><label for="status">Status:</label></td>
+            <td><input type="text" class="form-control" id="status" name="status" required disabled></td>
+          </tr>
+        </tbody>
+      </table>
       <div class="row mt-5 text-end">
         <div class="col-md-12">
           <a href="index.html" class="btn btn-dark">Back</a>
