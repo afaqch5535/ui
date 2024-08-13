@@ -1,5 +1,3 @@
-
-
 document.getElementById('customerForm').addEventListener('submit', function(event) {
     event.preventDefault(); 
   
