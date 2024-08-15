@@ -18,10 +18,11 @@ document.getElementById('customerForm').addEventListener('submit', function(even
       })
       .then(response => response.json())
       .then(data => {
-        console.log('Success:', data);
+        alert('Customer created successfully!');
+        window.location.href = 'index.html'; 
       })
-      .catch((error) => {
-        console.error('Error:', error);
+      .catch(error => {
+        console.error('Error creating customer:', error);
       });
-  });
+    });
   

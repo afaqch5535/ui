@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .then(response => response.json())
     .then(data => {
       alert('Customer updated successfully!');
-      window.location.href = 'customer-list.html'; 
+      window.location.href = 'index.html'; 
     })
     .catch(error => {
       console.error('Error updating customer:', error);
